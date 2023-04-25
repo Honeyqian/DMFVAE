@@ -11,11 +11,10 @@ Deep matrix factorization model based on variational autoencoder for miRNA-disea
 
 # Data
 We provide two kinds of database includes HMDD v2.0 and HMDD v3.2
+
 # Take HMDD v2.0 as an example：
-Obtain feature:
 1. modifing the corresponding location. 
-2. using example.py to obtain embedding featureof miRNAs and disease network structures. 
-Model Training and predicting： 
+2. using example.py to obtain embedding featureof miRNAs and disease network structures.  
 1. using dataprocess.py to obtain samples.
 2. using vae.py to train and prediction. 
 
